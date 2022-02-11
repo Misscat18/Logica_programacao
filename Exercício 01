@@ -1,0 +1,15 @@
+algoritmo "EXERCICIO_01"
+
+var
+   v1, v2: inteiro
+inicio
+      Escreva("Insira um valor:")
+      Leia(v1)
+      Escreva("Insira outro valor")
+      Leia(v2)
+      Se (v1 > v2) entao
+         Escreval("O número",v1," é o maior.")
+      senao
+           Escreval("O número",v2," é o maior.")
+      Fimse
+fimalgoritmo
